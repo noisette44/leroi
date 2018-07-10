@@ -1,4 +1,4 @@
-package fr.elco.leroipinpin.service;
+package fr.elco.leroipinpin;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
