@@ -17,7 +17,7 @@ public interface PinpinClient
 {
 	@RequestMapping(method = GET,
 	                value = "/backend-amgp-lmfr/v2/stores",
-	                headers = "X-ClientApiKey=r7sansZEN9v159teb2NMUJeEA9dnRRaZ")
+	                headers = {"X-ClientApiKey=r7sansZEN9v159teb2NMUJeEA9dnRRaZ", "User-Agent=Mozilla/5.0 Firefox/26.0"})
 	StoresDto getStores(
 		@RequestParam("limit")
 		final int limit);
